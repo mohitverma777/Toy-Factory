@@ -1,0 +1,27 @@
+.box-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.box{
+    border: 1px solid black;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    border-radius: 6px;
+    width: 272px;
+    margin: 10px;
+    
+}
+.acc{
+    margin-left: 20%;
+    margin-top: 5%;
+}
+.acc-header{
+    font-weight: 700;
+    display: block;
+    padding: 3px 20px;
+    font-size: 12px;
+    color: black;
+    line-height: 1.42857143;
+    white-space: nowrap;
+}

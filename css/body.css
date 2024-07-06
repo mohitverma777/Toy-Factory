@@ -1,0 +1,142 @@
+.section-p1 {
+    padding: 0 80px 0 80px; 
+}
+#product1{
+    text-align: center;
+}
+#product1 .pro{
+    width: 23%;
+    min-width: 250px;
+    padding: 10px 12px;
+    border: 1px solid #cce7d0;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
+    margin: 15px 0;
+    transition: 0.2s ease;
+    position: relative;
+}
+a{
+    text-decoration: none;
+}
+.pro:hover{
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.5);
+}
+.pro-img{
+    width: 100%;
+    border-radius: 20px;
+}
+.cart{
+    width: 20px;
+    height: 20px;
+    border: 1px solid #e8f6ea;
+    border-radius: 5px;
+    background-color: #e8f6ea;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+.des{
+    text-align: left;
+    padding: 10px 0;
+}
+.des span{
+    color: #606063;
+    font-size: 12px;
+}
+.des h5{
+    padding-top: 7px;
+    color: #1a1a1a;
+    font-size: 14px;
+}
+.des h4{
+    padding-top: 7px;
+    font-size: 15px;
+    font-weight: 700;
+    color: #088178;
+}
+
+.pro-container{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    flex-wrap: wrap;
+}
+#prodetails .single-pro-img{
+    
+    width: 40%;
+    margin-right: 50px;
+}
+.pro a:hover{
+    text-decoration: underline;
+  }
+.small-img-group{
+    display: flex;
+    justify-content: space-between;
+}
+.small-img-col{
+    flex-basis: 24%;
+    cursor: pointer;
+    margin: 6px;
+}
+#prodetails {
+    display: flex;
+    margin-top: 20px;
+}
+#prodetails .single-prp-details{
+    width: 50%;
+    padding-top: 30px;
+}
+#prodetails .single-prp-details h4{
+    padding: 40px 0 20px 0;
+}
+#prodetails .single-prp-details h3{
+    font-size: 20px;
+}
+#prodetails .single-prp-details select{
+    display: block;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+}
+#prodetails .single-prp-details input{
+    width: 50px;
+    height: 47px;
+    padding-left: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+#prodetails .single-prp-details input:focus{
+    outline: none;
+}
+#prodetails .single-prp-details button{
+    border: none;
+    background: #088178;
+    border-radius: 4px;
+    color: #fff;
+}
+#prodetails .single-prp-details span{
+    line-height: 25px;
+    font-size: 14px;
+}
+
+@media (max-width:477px){
+    #prodetails{
+        display:flex;
+        flex-direction: column;
+    }
+    #prodetails .single-pro-img{
+        width: 100%;
+        margin-right: 0px;
+    }
+    #prodetails .single-prp-details{
+        width: 100%;
+        padding-top: 0px;
+    }
+
+}
+a:hover{
+    text-decoration: underline;
+}
+a:link{
+    text-decoration: none;
+}

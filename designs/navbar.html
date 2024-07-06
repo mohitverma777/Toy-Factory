@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>SIMPLE MEGAMENU</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+  </head>
+  <body>
+
+    <div class = "main-wrapper">
+      <nav class = "navbar">
+        <div class = "brand-and-icon">
+          <a href = "index.html" class = "navbar-brand">ToyFactory</a>
+          <ul class="search yes">
+          <form action="searchresult.php" method="get" id="search-nav" class="yes">
+           <li> <input type="text" placeholder="search....." name="search_data" class="yes"/></li>
+            <li><input type="submit" value="search"  id="srh-btn" name="search_data_product" class="yes"></li>  </form>
+          </ul>
+          <button type = "button" class = "navbar-toggler">
+            <i class = "fas fa-bars"></i>
+          </button>
+           
+        </div>
+       
+        <div class = "navbar-collapse">
+          <ul class = "navbar-nav">
+            <li>
+              <a href = "#">home</a>
+            </li>
+
+            <li>
+              <a href = "#" class = "menu-link">
+                electronics
+                <span class = "drop-icon">
+                  <i class = "fas fa-chevron-down"></i>
+                </span>
+              </a>
+              <div class = "sub-menu">
+                <!-- item -->
+                <div class = "sub-menu-item">
+                  <h4>top categories</h4>
+                  <ul>
+                    <li><a href = "#">cell phones & accessories</a></li>
+                    <li><a href = "#">smart tv</a></li>
+                    <li><a href = "#">computer & laptops</a></li>
+                    <li><a href = "#">digital cameras</a></li>
+                    <li><a href = "#">video games & accessories</a></li>
+                  </ul>
+                </div>
+                <!-- end of item -->
+                <!-- item -->
+                <div class = "sub-menu-item">
+                  <h4>other categories</h4>
+                  <ul>
+                    <li><a href = "#">iphones</a></li>
+                    <li><a href = "#">speakers</a></li>
+                    <li><a href = "#">samsung devices</a></li>
+                    <li><a href = "#">audio & headphones</a></li>
+                    <li><a href = "#">vehicles electronics & GPS</a></li>
+                  </ul>
+                </div>
+                <!-- end of item -->
+                <!-- item -->
+                <div class = "sub-menu-item">
+                  <h4>other categories</h4>
+                  <ul>
+                    <li><a href = "#">iphones</a></li>
+                    <li><a href = "#">speakers</a></li>
+                    <li><a href = "#">samsung devices</a></li>
+                    <li><a href = "#">audio & headphones</a></li>
+                    <li><a href = "#">vehicles electronics & GPS</a></li>
+                  </ul>
+                </div>
+                <!-- end of item -->
+                <!-- item -->
+                <div class = "sub-menu-item">
+                  <h2>stylish and modern fashion clothing</h2>
+                  <button type = "button" class = "btn">shop here</button>
+                </div>
+                <!-- end of item -->
+              </div>
+            </li>
+
+            <li>
+              <a href = "#" class = "menu-link">
+                fashion
+                <span class = "drop-icon">
+                  <i class = "fas fa-chevron-down"></i>
+                </span>
+              </a>
+              <div class = "sub-menu">
+                <!-- item -->
+                <div class = "sub-menu-item">
+                  <h4>top categories</h4>
+                  <ul>
+                    <li><a href = "#">men's clothing</a></li>
+                    <li><a href = "#">women's clothing</a></li>
+                    <li><a href = "#">men's shoes</a></li>
+                    <li><a href = "#">women's shoes</a></li>
+                    <li><a href = "#">clothing deals</a></li>
+                  </ul>
+                </div>
+                <!-- end of item -->
+                <!-- item -->
+                <div class = "sub-menu-item">
+                  <h4>other categories</h4>
+                  <ul>
+                    <li><a href = "#">fine jewelry</a></li>
+                    <li><a href = "#">fashion jewelry</a></li>
+                    <li><a href = "#">men's accessories</a></li>
+                    <li><a href = "#">handbags & bags</a></li>
+                    <li><a href = "#">kid's clothing</a></li>
+                  </ul>
+                </div>
+                <!-- end of item -->
+                <!-- item -->
+                <div class = "sub-menu-item">
+                  <h2>stylish and modern fashion clothing</h2>
+                  <button type = "button" class = "btn">shop here</button>
+                </div>
+                <!-- end of item -->
+                <!-- item -->
+                <div class = "sub-menu-item">
+                  <img src = "images/cloth.png" alt = "product image">
+                </div>
+                <!-- end of item -->
+              </div>
+            </li>
+
+            
+
+            
+
+            <li class="dropdown">
+              <a href="myaccount.php" class="menu-link dropbtn" data-toggle="dropdown" role="button" aria-expanded="false">helo<span class = "drop-icon">
+                <i class = "fas fa-chevron-down"></i>
+              </span></a>
+              <div class="sub-menu">
+                <ul  role="menu">
+                  <li><a href="myaccount.php">Your Account</a></li>
+                  <li><a href="#">Your Orders</a></li>
+                  <li><a href="yourinfo.php">Login & Security</a></li>
+                  <li><a href="#">Your Address</a></li>
+                  <li class="divider"></li>
+                  
+                </ul>
+              </div>
+              
+            </li>
+            
+            <li class="search no"><form action="searchresult.php" method="get" id="search-nav" class="no">
+              <input type="text" placeholder="search....." name="search_data" class="no"/><li>
+              <input type="submit" value="search"  id="srh-btn" name="search_data_product" class="no"></li>  </form>
+            </li>
+            <li class="dropdown">
+              <a href="login.php"  role="button" aria-expanded="false">Login</a>
+              
+            </li>
+            <li><a href="Login.php">My cart (0) items</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+   
+
+
+
+    <!--jQuery-->
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script>
+      $(document).ready(function(){
+    $('.navbar-toggler').click(function(){
+        $('.navbar-collapse').slideToggle(300);
+    });
+    
+    smallScreenMenu();
+    let temp;
+    function resizeEnd(){
+        smallScreenMenu();
+    }
+
+    $(window).resize(function(){
+        clearTimeout(temp);
+        temp = setTimeout(resizeEnd, 100);
+        resetMenu();
+    });
+});
+
+
+const subMenus = $('.sub-menu');
+const menuLinks = $('.menu-link');
+
+function smallScreenMenu(){
+    if($(window).innerWidth() <= 992){
+        menuLinks.each(function(item){
+            $(this).click(function(){
+                $(this).next().slideToggle();
+            });
+        });
+    } else {
+        menuLinks.each(function(item){
+            $(this).off('click');
+        });
+    }
+}
+
+function resetMenu(){
+    if($(window).innerWidth() > 992){
+        subMenus.each(function(item){
+            $(this).css('display', 'none');
+        });
+    }
+}
+    </script>
+  </body>
+</html>

@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toy Factory-Home</title>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <link rel="stylesheet" href="../css/form.css">
+    <link rel="stylesheet" href="../css/body.css">
+    <link rel="stylesheet" href="../css/navbar.css">
+</head>
+<body>
+    <div id="navbody">
+    <div class="container1">
+        <nav class="navbar navbar-inverse">
+          <div class="navbar-header">
+              <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".js-navbar-collapse">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="user_index.php">My Store</a>
+          </div>
+          
+          <div class="collapse navbar-collapse js-navbar-collapse">
+              <ul class="nav navbar-nav">
+                  <li class="dropdown mega-dropdown">
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown">Category <span class="caret"></span></a>				
+                      <ul class="dropdown-menu mega-dropdown-menu">
+                          <li class="col-sm-3">
+                              <ul>
+                                  <li class="dropdown-header">Features</li>
+                              </ul>
+                          </li>
+                          <li class="col-sm-3">
+                              <ul>
+                                  <li class="dropdown-header">Plus</li>
+                                  <li><a href="#">Navbar Inverse</a></li>
+                                  <li><a href="#">Pull Right Elements</a></li>
+                                  <li><a href="#">Coloured Headers</a></li>                            
+                                  <li><a href="#">Primary Buttons & Default</a></li>							
+                              </ul>
+                          </li>
+                          <li class="col-sm-3">
+                              <ul>
+                                  <li class="dropdown-header">Much more</li>
+                                  <li><a href="#">Easy to Customize</a></li>
+                                  <li><a href="#">Calls to action</a></li>
+                                  <li><a href="#">Custom Fonts</a></li>
+                                  <li><a href="#">Slide down on Hover</a></li>                         
+                              </ul>
+                          </li>
+                          
+                      </ul>				
+                  </li>
+                  <li class="dropdown mega-dropdown">
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown">Brands <span class="caret"></span></a>				
+                      <ul class="dropdown-menu mega-dropdown-menu">
+                          <li class="col-sm-3">
+                              <ul>
+                                  <li class="dropdown-header">Features</li>
+                                  <?php
+                                    getbrands()?>
+                                  <li class="dropdown-header">Fonts</li>
+                                  <li><a href="#">Glyphicon</a></li>
+                                  <li><a href="#">Google Fonts</a></li>
+                              </ul>
+                          </li>
+                          <li class="col-sm-3">
+                              <ul>
+                                  <li class="dropdown-header">Plus</li>
+                                  <li><a href="#">Navbar Inverse</a></li>
+                                  <li><a href="#">Pull Right Elements</a></li>
+                                  <li><a href="#">Coloured Headers</a></li>                            
+                                  <li><a href="#">Primary Buttons & Default</a></li>							
+                              </ul>
+                          </li>
+                          <li class="col-sm-3">
+                              <ul>
+                                  <li class="dropdown-header">Much more</li>
+                                  <li><a href="#">Easy to Customize</a></li>
+                                  <li><a href="#">Calls to action</a></li>
+                                  <li><a href="#">Custom Fonts</a></li>
+                                  <li><a href="#">Slide down on Hover</a></li>                         
+                              </ul>
+                          </li>
+                          
+                      </ul>				
+                  </li>
+                  <li><a href="#">Store locator</a></li>
+              </ul>
+              <ul class="nav navbar-nav navbar-right">
+                <li class="search"><input type="text" placeholder="search"/></li>
+                <li class="searchbtn"><input type="button" value="search"> </li>
+              <li class="dropdown">
+                <a href="myaccount.php" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">My account <span class="caret"></span></a>
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="myaccount.php">Your Account</a></li>
+                  <li><a href="#">Your Orders</a></li>
+                  <li><a href="#">Your Address</a></li>
+                  <li class="divider"></li>
+                  <li><a href="logout.php">Logout</a></li>
+                </ul>
+              </li>
+              <li><a href="mycart.php">My cart (0) items</a></li>
+            </ul>
+          </div><!-- /.nav-collapse -->
+        </nav>
+      </div>
+    </div>
+    <section id="prodetails" class="section-p1">
+        <div class="single-pro-img">
+            <img src="492408399-2.jpg" width="100%"alt="" id="mainimg">
+
+            <div class="small-img-group">
+                <div class="small-img-col">
+                    <img src="491603723-1_2726.jpg" width="100%" class="small-img" alt="">
+                </div> 
+                <div class="small-img-col">
+                    <img src="491603723-2_8878.jpg" width="100%" class="small-img" alt="">
+                </div> 
+                <div class="small-img-col">
+                    <img src="492408399-2.jpg" width="100%" class="small-img" alt="">
+                </div> 
+                <div class="small-img-col">
+                    <img src="492408399-2.jpg" width="100%" class="small-img" alt="">
+                </div> 
+                <div class="small-img-col">
+                    <img src="492408399-2.jpg" width="100%" class="small-img" alt="">
+                </div>  
+            </div>
+        </div>
+        <div class="single-prp-details">
+            <h6>Home/T-shirts</h6>
+            <h4>men's fashion T-shirts</h4>
+            <h3>$139.00</h3>
+            <select name="" id="">
+                <option value="">select size</option>
+                <option value="">select size</option>
+                <option value="">select size</option>
+                <option value="">select size</option>
+            </select>
+            <input type="number" value="1">
+            <button class="normal">Add to cart</button>
+            <h4>Product details</h4>
+            <span>
+                Product Length: 7 cm Product Width: 102 cm Product Height: 39 cm Product Weight: 1.2 kg Net Qty: 1 U Colour: Multicolor Material: Plastic Content Inside: 5 blasters and 30 darts
+            </span>
+        </div>
+    </section>
+    <section id="product1" class="section-p1">
+        <h2>Featured Products</h2>
+        <div class="pro-container">
+            <div class="pro">
+                <img src="img/feature/products/batman-emblem-vengeance-oversized-t-shirt-india-438x438.jpg" alt="" class="pro-img">
+                <div class="des">
+                    <span>DC Comics</span>
+                    <h5>Batman Emblem-vengeance oversized t-shirt</h5> 
+                    <h4>₹ 899</h4>                
+                </div>
+                <a href="#"><img src="img/symbols/3737372.png" alt="" class="cart"></a>
+            </div>
+            <div class="pro">
+                <img src="img/feature/products/dangerous-when-hungry-hoodie-india-438x438.jpg" alt="" class="pro-img">
+                <div class="des">
+                    <span>Looney Tunes</span>
+                    <h5>dangerous-when-hungry-hoodie</h5> 
+                    <h4>₹ 899</h4>                
+                </div>
+                <a href="#"><img src="img/symbols/3737372.png" alt="" class="cart"></a>
+            </div>
+            <div class="pro">
+                <img src="img/feature/products/dragon-rider-t-shirt-india-438x438.jpg" alt="" class="pro-img">
+                <div class="des">
+                    <span>Game Of Thrones</span>
+                    <h5>dragon-rider-t-shirt</h5> 
+                    <h4>₹ 449</h4>                
+                </div>
+                <a href="#"><img src="img/symbols/3737372.png" alt="" class="cart"></a>
+            </div>
+            <div class="pro">
+                <img src="img/feature/products/easily-unimpressed-t-shirt-india-438x438.jpg" alt="" class="pro-img">
+                <div class="des">
+                    <span>Looney Tunes</span>
+                    <h5>easily-unimpressed-t-shirt</h5> 
+                    <h4>₹ 549</h4>                
+                </div>
+                <a href="#"><img src="img/symbols/3737372.png" alt="" class="cart"></a>
+            </div>
+            <div class="pro">
+                <img src="img/feature/products/fuelled-by-coffee-and-sarcasm-hoodie-india-1-438x438.jpg" alt="" class="pro-img">
+                <div class="des">
+                    <span>Garfield</span>
+                    <h5>fuelled-by-coffee-and-sarcasm-hoodie</h5> 
+                    <h4>₹ 899</h4>                
+                </div>
+                <a href="#"><img src="img/symbols/3737372.png" alt="" class="cart"></a>
+            </div>
+            <div class="pro">
+                <img src="img/feature/products/gothams-guardian-drop-cut-t-shirt-india-438x438.jpg" alt="" class="pro-img">
+                <div class="des">
+                    <span>DC Comics</span>
+                    <h5>gothams-guardian-drop-cut-t-shirt</h5> 
+                    <h4>₹ 699</h4>                
+                </div>
+                <a href="#"><img src="img/symbols/3737372.png" alt="" class="cart"></a>
+            </div>
+            <div class="pro">
+                <img src="img/feature/products/normal-is-boring-full-sleeve-t-shirt-india-438x438.jpg" alt="" class="pro-img">
+                <div class="des">
+                    <span>Garfield</span>
+                    <h5>normal-is-boring-full-sleeve-t-shirt</h5> 
+                    <h4>₹ 649</h4>                
+                </div>
+                <a href="#"><img src="img/symbols/3737372.png" alt="" class="cart"></a>
+            </div>
+        </div>
+    </section>
+    <script>
+        var mainimg=document.getElementById('mainimg')
+        var smallimg=document.getElementsByClassName('small-img') 
+
+        smallimg[0].onclick=function(){
+            mainimg.src=smallimg[0].src;
+        }
+        smallimg[1].onclick=function(){
+            mainimg.src=smallimg[1].src;
+        }
+        smallimg[2].onclick=function(){
+            mainimg.src=smallimg[2].src;
+        }
+        smallimg[3].onclick=function(){
+            mainimg.src=smallimg[3].src;
+        }
+        smallimg[4].onclick=function(){
+            mainimg.src=smallimg[4].src;
+        }
+        smallimg[5].onclick=function(){
+            mainimg.src=smallimg[6].src;
+        }
+    </script>
+    <script src="../js/script.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+</body>
+</html>
