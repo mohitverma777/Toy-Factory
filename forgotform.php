@@ -25,7 +25,7 @@
             $mail->Password = 'anvegswsghtktbir';
     
             // Sender and recipient
-            $mail->setFrom('myfactoryinfo7@gmail.com', 'Toy factory');
+            $mail->setFrom('mohitvermain07@gmail.com', 'Toy factory');
             $mail->addAddress($_POST['email']);
     
             // Email subject and body
