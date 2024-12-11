@@ -21,7 +21,7 @@
             $mail->Port = 587;
             $mail->SMTPSecure = 'tls';
             $mail->SMTPAuth = true;
-            $mail->Username = 'myfactoryinfo7@gmail.com';
+            $mail->Username = 'mohitvermain07@gmail.com';
             $mail->Password = 'anvegswsghtktbir';
     
             // Sender and recipient
